@@ -1,6 +1,6 @@
 var data = {
   name: 'SimonYuan',
-  age: 27
+  hobby: 'freedom and sunshine'
 }
 document.getElementById('name').innerHTML = data.name;
-document.getElementById('age').innerHTML = data.age;
+document.getElementById('hobby').innerHTML = data.hobby;
