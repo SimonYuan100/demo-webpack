@@ -1,6 +1,22 @@
+var webpack = require('webpack');
 module.exports = {
-  entry: './main.js',
+  entry: {
+    home: "./b.js",
+    about: "./a.js",
+    contact: "./c.js"
+  },
   output: {
-    filename: 'bundle.js'
+    filename: '[name].js'
+  },
+  module: {
+    rules: [
+      // {
+      //   test: /\.js$/,
+      //   loader: "babel-loader",
+      //   options: {
+      //     presets: ['es2015']
+      //   }
+      // }
+    ]
   }
 }
