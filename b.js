@@ -1,2 +1,3 @@
 var bObj = {b: 45};
-// module.exports = bObj;
+
+module.exports = bObj;
